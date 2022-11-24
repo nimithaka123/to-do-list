@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="to_do_list.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Task List 2022</h1>
+        </div>
+        <div class="new-task-body">
+            <form id="new-task-form">
+                <input type="text" id="new-task-input" placeholder="Enter your latest task to do">
+                <span type="submit" class="new-task-submit" value="Add task" onclick="add()">Add</span>
+            </form>
+        </div>
+        <div class="task-list">
+           <ul id="list">
+                <li>Morning routine</li>
+                <li>Learning</li>
+           </ul>
+        </div>
+    </div>
+    <script src="to_do_list.js" defer></script>
+</body>
+
+</html>
