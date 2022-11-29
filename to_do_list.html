@@ -10,23 +10,18 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="heading">
-            <h1>Task List 2022</h1>
-        </div>
-        <div class="new-task-body">
-            <form id="new-task-form">
-                <input type="text" id="new-task-input" placeholder="Enter your latest task to do">
-                <span type="submit" class="new-task-submit" value="Add task" onclick="add()">Add</span>
-            </form>
-        </div>
-        <div class="task-list">
-           <ul id="list">
-                <li>Morning routine</li>
-                <li>Learning</li>
-           </ul>
-        </div>
-    </div>
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Enter latest task to do" autocomplete="off">
+        <span onclick="newElement()" class="addBtn">+</span>
+      </div>
+      
+      <ul id="myUL">
+        <li>Wake up early</li>
+        <li class="checked">Pay hostel rent</li>
+        <li>Read a book</li>
+        <li>Organize home</li>
+      </ul>
     <script src="to_do_list.js" defer></script>
 </body>
 
